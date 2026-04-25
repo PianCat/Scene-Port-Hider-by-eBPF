@@ -56,10 +56,6 @@ When building from WSL under `/mnt/c` or `/mnt/d`, `chmod` can fail because the
 directory is backed by a Windows filesystem. The module installer sets runtime
 permissions on-device, so a chmod warning after the files are built is harmless.
 
-For Android Studio, see `ANDROID_STUDIO.md`. The included `CMakeLists.txt`
-builds `hideport_loader`, generates `hideport.bpf.o`, and copies both outputs to
-`system/bin`.
-
 Install `hideSceneport_module.zip` from KernelSU Manager and reboot.
 
 See `DEPLOY.md` for GitHub release and self-build distribution notes.
