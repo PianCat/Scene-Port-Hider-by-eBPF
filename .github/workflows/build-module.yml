@@ -31,7 +31,7 @@ jobs:
       - name: Install host tools
         run: |
           sudo apt update
-          sudo apt install -y adb curl unzip make git clang llvm lld tar xxd zip pkg-config autoconf automake libtool bzip2 xz-utils bpftool
+          sudo apt install -y curl unzip make git clang llvm lld tar xxd zip pkg-config autoconf automake libtool bzip2 xz-utils bpftool
 
       - name: Cache Android arm64 dependencies
         uses: actions/cache@v4

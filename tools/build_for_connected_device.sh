@@ -25,7 +25,7 @@ Missing host tools: ${missing[*]}
 
 On Ubuntu/WSL, install them with:
   sudo apt update
-  sudo apt install -y adb curl unzip make git clang llvm lld tar xxd zip pkg-config autoconf automake libtool bzip2 xz-utils
+  sudo apt install -y android-tools-adb curl unzip make git clang llvm lld tar xxd zip pkg-config autoconf automake libtool bzip2 xz-utils
 EOF
     exit 1
 fi
